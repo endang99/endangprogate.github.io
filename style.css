@@ -1,0 +1,61 @@
+body {
+    margin:0;
+    font-family: "Lucida Grande";
+    text-decoration: none;
+}
+
+.top-wrapper{
+    padding: 180px 0 100px 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    text-align: center;
+    z-index: 10;
+
+}
+.top-wrapper h1{
+    color:white;
+    opacity: 0.9;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 1;
+    margin:20px 0;
+    color:white;
+    font-size: 17px;
+}
+.top-wrapper h2 {
+    opacity: 0.8;
+    margin-bottom: 3px;
+    color: white;
+    font-size: 25px;
+}
+.btn-wrapper {
+    margin: 20px 0;
+}
+.btn-wrapper a{
+    color: rgb(4, 7, 10);
+}
+.explore {
+    background-color: rgb(122, 122, 207);
+}
+.btn {
+    padding: 10px 10px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+
+    /*transition-property: transfrom;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
+
+    transition: 0.5s ease 0s;
+  }
+.btn:hover {
+    opacity: 1;
+    transform: translate(-10px);
+  }
